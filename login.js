@@ -70,7 +70,7 @@ btnIngresar.addEventListener('click', e => {
 
 	if(Object.keys(registers).includes(inputEmailLogin.value)){
 		if(validarUsuario(inputEmailLogin.value,inputPassLogin.value)){
-			setTimeout( () => window.location.href = "index.html", 4000 );
+			setTimeout( () => window.location.href = "home.html", 4000 );
 			const progressBar = barraLoading.firstElementChild
 			progressBar.classList.add('progress');
 			progressBar.firstElementChild.classList.add('color');
