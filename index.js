@@ -13,8 +13,6 @@ const hearts = document.querySelectorAll('.like');
 // BOOKMARKS
 const bookmarks = document.querySelectorAll('.bookmark-icons');
 
-
-
 // THEME
 const theme = document.querySelector('#theme');
 const themeModal = document.querySelector('.customize-theme');
@@ -24,8 +22,6 @@ const colorPalette = document.querySelectorAll('.choose-color span');
 const Bg1 = document.querySelector('.bg-1');
 const Bg2 = document.querySelector('.bg-2');
 const Bg3 = document.querySelector('.bg-3');
-
-
 
 // ================ SIDEBAR ===============
 

@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 :root {
-  --primary-color-hue: 252;
+  --primary-color-hue: 268;
   --dark-color-lightness: 17%;
   --light-color-lightness: 95%;
   --white-color-lightness: 100%;
 
-  --color-white: hsl(252, 30%, var(--white-color-lightness));
-  --color-light: hsl(252, 30%, var(--light-color-lightness));
+  --color-white: hsl(268, 30%, var(--white-color-lightness));
+  --color-light: hsl(268, 30%, var(--light-color-lightness)); 
   --color-gray: hsl(var(--primary-color-hue), 15%, 65%);
   --color-primary: hsl(var(--primary-color-hue), 75%, 60%);
-  --color-secondary: hsl(252, 100%, 90%);
+  --color-secondary: hsl(268, 100%, 90%);
   --color-success: hsl(120, 95%, 65%);
   --color-danger: hsl(0, 95%, 65%);
-  --color-dark: hsl(252, 30%, var(--dark-color-lightness));
-  --color-black: hsl(252, 30%, 10%);
+  --color-dark: hsl(268, 30%, var(--dark-color-lightness));
+  --color-black: hsl(268, 30%, 10%);
 
   --border-radius: 2rem;
   --card-border-radius: 1rem;
@@ -65,6 +65,11 @@ body {
 img {
   display: block;
   width: 100%;
+}
+
+.log {
+  width: auto;
+  height: 44px;
 }
 
 .btn {
@@ -634,7 +639,7 @@ main .container .right {
 }
 
 .customize-theme .choose-color span:nth-child(1) {
-  background: hsl(252, 75%, 60%);
+  background: hsl(268, 75%, 60%);
 }
 .customize-theme .choose-color span:nth-child(2) {
   background: hsl(52, 75%, 60%);
@@ -686,12 +691,12 @@ main .container .right {
 }
 
 .customize-theme .choose-bg .bg-2 {
-  background: hsl(252, 30%, 17%);
+  background: hsl(268, 30%, 17%);
   color: white;
 }
 
 .customize-theme .choose-bg .bg-3 {
-  background: hsl(252, 30%, 10%);
+  background: hsl(268, 30%, 10%);
   color: white;
 }
 
